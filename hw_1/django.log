@@ -1,0 +1,12 @@
+Watching for file changes with StatReloader
+D:\учеба\ДЗ и прочее\ДЗ Django\hw_1\hw_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Page "general" is open
+"GET / HTTP/1.1" 200 162
+"GET /about HTTP/1.1" 301 0
+Page "about" is open
+"GET /about/ HTTP/1.1" 200 187
+D:\учеба\ДЗ и прочее\ДЗ Django\hw_1\hw_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Page "about" is open
+"GET /about/ HTTP/1.1" 200 190
