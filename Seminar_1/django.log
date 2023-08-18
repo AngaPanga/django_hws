@@ -1,0 +1,44 @@
+"Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+"GET /app2/cube/ HTTP/1.1" 200 76
+"GET /app2/cube/ HTTP/1.1" 200 76
+D:\�����\�� � ������\�� Django\Seminar_1\Seminar_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /app2/cube/ HTTP/1.1" 200 76
+Watching for file changes with StatReloader
+"GET /app2/cube/ HTTP/1.1" 200 76
+D:\�����\�� � ������\�� Django\Seminar_1\Seminar_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /app2/cube/ HTTP/1.1" 200 76
+"GET /app2/cube/ HTTP/1.1" 200 76
+D:\�����\�� � ������\�� Django\Seminar_1\Seminar_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py changed, reloading.
+Watching for file changes with StatReloader
+������������� �������� <WSGIRequest: GET '/app2/cube/'>
+"GET /app2/cube/ HTTP/1.1" 200 76
+D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /app2/cube/ HTTP/1.1" 200 76
+D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /app2/cube/
+Traceback (most recent call last):
+  File "C:\Users\AngaPanga\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\AngaPanga\anaconda3\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py", line 25, in cube
+    logger.info('������������� �������� -',*result)
+TypeError: Value after * must be an iterable, not int
+"GET /app2/cube/ HTTP/1.1" 500 63916
+"GET /app2/coin/ HTTP/1.1" 200 83
+D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py changed, reloading.
+Watching for file changes with StatReloader
+������������� �������� - �����
+"GET /app2/coin/ HTTP/1.1" 200 85
+D:\�����\�� � ������\�� Django\Seminar_1\app_2\views.py changed, reloading.
+Watching for file changes with StatReloader
+������������� �������� - 53
+"GET /app2/rand100/ HTTP/1.1" 200 77
